@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="blender.png">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <h1>RECIPE APP</h1>
+           <div class="navsearch">
+             <form action="#">
+                <input id="searchinput" type="text" placeholder="Search for recipe ">
+                <button class="searchbtn">Search</button>
+             </form>
+           </div>
+        </div>
+        <div class="recipe-result-heading">
+                <h2 id="head">Search your favourtie recipe</h2>
+        </div>
+        <div class="recipe-results">
+        </div>
+        <div class="recipe-popup">
+            <button type="button" class="closebtn">
+               <ion-icon name="arrow-back-outline"></ion-icon>
+            </button>
+            <div class="recipe-details">
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
